@@ -1,0 +1,21 @@
+BASE <https://id.example.org/>
+PREFIX : <https://id.example.org/>
+PREFIX owl: <http://www.w3.org/2002/07/owl#>
+PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+
+CONSTRUCT {
+    ?vocabularyClass ?vocabularyClassProperty ?vocabularyClassValue .
+    ?vocabularyObjectProperty ?vocabularyObjectPropertyProperty ?vocabularyObjectPropertyValue .
+}
+WHERE {
+    FILTER(?vocabularyClassProperty != IRI(rdfs:subClassOf))
+
+    ?vocabularyClass
+        ?vocabularyClassProperty ?vocabularyClassValue ;
+        a owl:Class .
+
+    ?vocabularyObjectProperty
+        ?vocabularyObjectPropertyProperty ?vocabularyObjectPropertyValue ;
+        rdfs:domain ?domain ;
+        a owl:ObjectProperty .
+}
