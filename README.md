@@ -1,6 +1,6 @@
 # Volunteering and Social Action Ontology
 
-A [vocabulary](./vocabulary.ttl) to describe volunteering activities, volunteer-involving organisations and volunteering management systems.
+A [vocabulary](./vocabulary.ttl) to describe volunteering activities, volunteer-involving organisations and volunteering management systems, it [can be visualised here](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl).
 
 ## Versions
 
