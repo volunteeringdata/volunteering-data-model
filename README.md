@@ -1,21 +1,22 @@
 # Volunteering and Social Action Ontology
 
-A [vocabulary](./vocabulary.ttl) to describe volunteering activities, volunteer-involving organisations and volunteering management systems, it [can be visualised here](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl).
+A [data model](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl) to describe volunteering opportunities and volunteer-involving organisations.
+
+
+## Process
+
+The Volunteering and Social Action draft data standard is developed in the open with volunteering specialists, software providers, and data experts, bringing domain expertise to collaborate on the standardisation effort.
+
+A landscape review of the Voluntary, Community, and Social Enterprise (VCSE) sector helped identify an initial list of [use cases](./use-cases/README.md) that could inform the standardisation effort.
+
+A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) helps with gathering feedback and informing development of the standard.
+
+A [Hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/) brought together subject matter experts, raising awareness of the standardisation effort, and informing the [direction of our efforts](./hackathon/README.md).
+
 
 ## Versions
 
-See [versions](./version/README.md).
-
-## FAQ
-
-1. What properties are required for a volunteering activity?
-   > An activity MUST have an organisation, a label, and a description.
-1. If an activity has no Location, it is remote?
-   > An activity with no location might be remote but it is possible that location information is held in the activity's description.
-    1. How to know with certainty if an activity is remote?
-       > An activity that accomodates remote participation should have the property `allowsRemoteParticipation` set to true.
-1. How to know if an activity is part of an emergency response effort?
-   > An emergency response activity should have the property `requiresEmergencyParticipation` set to true.
+The data model's evolution is documented as a [series of versions](./version/README.md).
 
 
 ## License
