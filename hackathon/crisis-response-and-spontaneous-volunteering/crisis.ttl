@@ -17,12 +17,166 @@ prefix skos:            <http://www.w3.org/2004/02/skos/core#>
 prefix time:            <http://www.w3.org/2006/time#>
 prefix vann:            <http://purl.org/vocab/vann/>
 
-[
-    a :CrisisResponseRequirement ;
-    rdfs:label "x" ;
-] .
 
-[
-    a :CrisisResponseRequirement ;
-    rdfs:label "y" ;
-] .
+# Main Concept
+:CrisisResponseRequirement
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :Concept ;
+    rdfs:label "Crisis response requirement"@en ;
+    rdfs:comment "Any requirement related to crisis and emergency responses"@en ;
+.
+
+
+:CrisisResponseSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseRequirement ;
+    rdfs:label "Crisis response skills"@en ;
+    rdfs:comment "Any skills related to crisis and emergency responses"@en ;
+.
+
+## Concept Subclasses
+:PersonalInterpersonalSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Personal and interpersonal skills" ;
+.
+
+:EmpathyAndCompassion
+    a :PersonalInterpersonalSkills ;
+    rdfs:label "Empathy and compassion" ;
+.
+
+# Empathy and compassion
+# Calmness under pressure
+# Patience and understanding
+# Reliability and trustworthiness
+# Respect for professional boundaries
+# Cultural sensitivity
+# Trauma-informed awareness
+# Conflict de-escalation
+
+:CommunicationSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Communication skills" ;
+.
+
+# Clear spoken communication
+# Active listening
+# Ability to relay accurate information
+# Supporting people via phone/online
+# Use of radios / walkie-talkies
+# Confidence engaging with the public or groups
+
+:TeamworkLeadershipSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Teamwork and leadership skills" ;
+.
+
+# Ability to work cooperatively
+# Ability to work independently
+# Leading small groups or tasks
+# Managing conflict within teams
+# Supporting or mentoring new volunteers
+
+:SafetyEmergencyAwarenessSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Safety and emergency awareness skills" ;
+.
+
+# Understanding emergency briefings and instructions
+# Basic safeguarding knowledge
+# Risk awareness (water, fire, structure, debris)
+# Safe manual handling
+# Incident reporting
+# Basic first aid knowledge
+# Fire safety awareness
+# Water safety awareness
+
+:PractivalOperationalSkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Practical and operational skills" ;
+.
+
+# Logistics (sorting, packing, distributing supplies)
+# Shelter support (setting up spaces, helping evacuees)
+# Basic record keeping
+# Use of basic equipment (sandbags, barriers, tools)
+# Navigation and orientation
+# Driving (car, van, off-road vehicles)
+# Crowd/queue management
+# Pilot License
+# HGV/Category D
+
+:DigitalTechnologySkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Digital and technology skills" ;
+.
+
+# Basic IT skills
+# Confident smartphone use (maps, messaging, camera)
+# Familiarity with remote communication tools
+# Simple data entry and reporting
+# Responsible handling of social media
+
+:CommunitySkills
+    a owl:Class ;
+    rdfs:isDefinedBy id:schema ;
+    rdfs:subClassOf :CrisisResponseSkills ;
+    rdfs:label "Digital and technology skills" ;
+.
+
+7. COMMUNITY & ENVIRONMENT KNOWLEDGE
+Knowledge of local roads, facilities, and resources
+Understanding diverse needs within the community
+Awareness of local support services
+
+8. PHYSICAL & PRACTICAL READINESS
+Physical stamina for standing, walking, carrying
+Ability to work outdoors in varied conditions
+Personal preparedness (water, snacks, medication)
+
+9. ASSETS & EQUIPMENT 
+Useful items or capabilities that strengthen crisis response.
+Personal Equipment
+Sturdy footwear (e.g., boots)
+Waterproofs and warm layers
+Gloves (work gloves, waterproof gloves)
+High-visibility vest
+Headtorch or flashlight
+Phone + power bank
+Small personal first aid kit
+Water bottle
+Transport & Mobility Assets
+4x4 vehicle (personal or organisational)
+SUV or off-road capable vehicle
+Vehicle with tow capability
+Access to a van or people-carrier
+Ability to transport equipment or supplies
+Access to bicycles or cargo bikes (urban crises)
+Boat
+Hovercraft
+Specialist or Useful Assets
+Walkie-talkies or radios
+Portable generator or power station
+Water pump (for localised flooding help)
+Tools (shovel, rake, chainsaw, basic toolkit)
+Portable shelter/gazebo
+Thermal blankets
+PPE such as masks, goggles, or waterproof gloves
+Maps / waterproof map cases
+Life jacket (for trained flood volunteers)
+Venue
+Kitchen
