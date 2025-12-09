@@ -1,3 +1,8 @@
+---
+layout: default
+title: Volunteering and Social Action Ontology Versions
+---
+
 # Volunteering and Social Action Ontology Versions
 
 This directory holds snapshots of the volunteering data model.

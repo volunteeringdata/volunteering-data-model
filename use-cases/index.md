@@ -1,3 +1,8 @@
+---
+layout: default
+title: Use Cases
+---
+
 # Use Cases
 
 1. Improving recruitment
@@ -20,4 +25,3 @@
     - Controlled, standardised procurement requirements for funders to use
 1. Ensuring digital platforms all speak the same language, allowing information to move between systems
     - Ensuring there is consensus amongst digital tool providers on a data standard and widespread adoption afterward.
-
