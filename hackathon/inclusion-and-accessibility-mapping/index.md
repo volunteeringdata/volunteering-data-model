@@ -13,6 +13,8 @@ The mapping of accessibility and inclusion considerations for volunteering
 activities and organisations is intended to provide a more comprehensive list of accessibility
 considerations for organisations when advertising volunteering opportunities.
 
-![accessibility and inclusion taxonomy v1](./accessibility.png "accessibility and inclusion taxonomy v1") - Initial version of the accessibility and inclusion mapping.
+### Initial Version of the Accessibility and Inclusion Taxonomy Mapping
+
+![accessibility and inclusion taxonomy v1](./accessibility.png "accessibility and inclusion taxonomy v1")
 
 Note: The model image was generated using the [WebVOWL](https://github.com/VisualDataWeb/WebVOWL) ontology visualisation tool.
