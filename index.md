@@ -3,32 +3,65 @@ layout: default
 title: Volunteering and Social Action Ontology
 ---
 
-A [data model](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl) to describe volunteering opportunities and volunteer-involving organisations.
+The volunteering and social action ontology aims to standardise the representation of volunteering opportunities and volunteer-involving organisations so that data and associated tooling become reusable and can be shared across the Voluntary, Community, and Social Enterprise (VCSE) sector.
 
+Standard data models designed to address the challenges faced by a sector are the base for information systems interoperability. Their adoption lowers both the cost and technical barrier for entry into a data ecosystem.
 
-## How to participate?
+The adequacy of a standard model enables simple solutions to use cases that may otherwise be challenging to address.
 
-We are always looking to improve this data model.
-
-Please don't hesitate to contribute to the [discussions](https://github.com/orgs/volunteeringdata/discussions/) on the volunteering data model repository. We created 7 main categories to focus on specific areas of development and expertise: [Accessibility](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility); [Data Governance](https://github.com/orgs/volunteeringdata/discussions/categories/data-governance); [Emergency Response](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response); [Geographical Location](https://github.com/orgs/volunteeringdata/discussions/categories/geographical-location); [Roles and Skills](https://github.com/orgs/volunteeringdata/discussions/categories/roles-and-skills); [Volunteer Involving Organisation](https://github.com/orgs/volunteeringdata/discussions/categories/volunteer-involving-organisation); [Volunteering Opportunities](https://github.com/orgs/volunteeringdata/discussions/categories/volunteering-opportunities).
-
-You can also [join the volunteering data standards working group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/).
+Ultimately, information systems relying on adequate standards enable a diverse, equitable and inclusive data ecosystem allowing us to focus time and efforts on users and improving processes that directly address their needs.
 
 
 ## Process
 
-The Volunteering and Social Action draft data standard is developed in the open with volunteering specialists, software providers, and data experts, bringing domain expertise to collaborate on the standardisation effort.
+Standards must be grounded in practical knowledge and experience of the sector they're designed for. Subject Matter Experts (SME), that is, a diverse group of people with varied and extensive experience of the sector, are the first point of contact in any standardisation effort. SMEs shared knowledge constitutes the base and justification for every data modelling decision in a standard.
+
+Following that principle, the volunteering and social action ontology is developed in the open with volunteering specialists, software providers, and data experts, bringing the necessary domain expertise to collaborate on the standardisation effort.
+
+### Discovery
 
 A landscape review of the Voluntary, Community, and Social Enterprise (VCSE) sector helped identify an initial list of [use cases](./use-cases/README.md) that could inform the standardisation effort.
+
+### Alpha
 
 A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) helps with gathering feedback and informing development of the standard.
 
 A [Hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/) brought together subject matter experts, raising awareness of the standardisation effort, and informing the [direction of our efforts](./hackathon/README.md).
 
 
-## Versions
+## Contributing Knowledge to the Volunteering and Social Action Ontology
 
-The data model's evolution is documented as a [series of versions](./version/README.md).
+We welcome domain experts and people with varied experiences of volunteering to contribute their knowledge of the sector. Shared knowledge is the basis to ensure our standard adequately provides structure to address the volunteering sector's needs.
+
+### Discussion Topics
+
+Please don't hesitate to contribute to the [discussions](https://github.com/orgs/volunteeringdata/discussions/) on the volunteering data model repository.
+
+We created 7 main categories to focus on specific areas of development and expertise:
+
+- [Accessibility](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility)
+- [Data Governance](https://github.com/orgs/volunteeringdata/discussions/categories/data-governance)
+- [Emergency Response](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response)
+- [Geographical Location](https://github.com/orgs/volunteeringdata/discussions/categories/geographical-location)
+- [Roles and Skills](https://github.com/orgs/volunteeringdata/discussions/categories/roles-and-skills)
+- [Volunteer Involving Organisation](https://github.com/orgs/volunteeringdata/discussions/categories/volunteer-involving-organisation)
+- [Volunteering Opportunities](https://github.com/orgs/volunteeringdata/discussions/categories/volunteering-opportunities)
+
+### Standards Working Group
+
+You can also [join the volunteering data standards working group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/).
+
+
+## Data Model
+
+The volunteering and social action ontology can be [visualized through WebVOWL](https://service.tib.eu/webvowl/#opts=doc=0;filter_sco=true;mode_compact=true;#iri=https://query20251112104247-h6affebdd4gfa4bs.uksouth-01.azurewebsites.net/schema.ttl), a web-based ontology visualization tool.
+
+The volunteering and social action ontology is implemented using RDF, a native data format for the semantic web. RDF enables the [5-star](https://5stardata.info/en/) deployment scheme for Open Data; a scheme suggested by Tim Berners-Lee, the inventor of the Web and [Linked Data](https://www.w3.org/DesignIssues/LinkedData.html) initiator.
+
+
+## Standardisation History
+
+The data model's evolution is documented as a [series of versions](./version/README.md) to document its evolution over time.
 
 
 ## License
