@@ -58,7 +58,7 @@ The volunteering and social action ontology is implemented using RDF, a native d
 
 ## Standardisation History
 
-The data model's evolution is documented as a [series of versions](./version/) to document its evolution over time.
+The data model's evolution is recorded as a [series of versions](./version/).
 
 
 ## License
