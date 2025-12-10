@@ -17,13 +17,13 @@ Following that principle, the volunteering and social action ontology is develop
 
 ### Discovery
 
-A landscape review of the Voluntary, Community, and Social Enterprise (VCSE) sector helped identify an initial list of [use cases](./use-cases/README.md) that could inform the standardisation effort.
+A landscape review of the Voluntary, Community, and Social Enterprise (VCSE) sector helped identify an initial list of [use cases](./use-cases/) that could inform the standardisation effort.
 
 ### Alpha
 
 A [Standards Working Group](https://theodi.org/news-and-events/blog/join-the-volunteering-data-standards-working-group/) helps with gathering feedback and informing development of the standard.
 
-A [Hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/) brought together subject matter experts, raising awareness of the standardisation effort, and informing the [direction of our efforts](./hackathon/README.md).
+A [Hackathon](https://theodi.org/news-and-events/events/open-data-infrastructure-for-volunteering-hackathon/) brought together subject matter experts, raising awareness of the standardisation effort, and informing the [direction of our efforts](./hackathon/).
 
 
 ## Contributing Knowledge to the Volunteering and Social Action Ontology
@@ -58,7 +58,7 @@ The volunteering and social action ontology is implemented using RDF, a native d
 
 ## Standardisation History
 
-The data model's evolution is documented as a [series of versions](./version/README.md) to document its evolution over time.
+The data model's evolution is documented as a [series of versions](./version/) to document its evolution over time.
 
 
 ## License
