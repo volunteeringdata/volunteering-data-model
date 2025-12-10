@@ -26,6 +26,11 @@ main {
   padding: 3.1rem 3.2rem 3.2rem 3.1rem;
 }
 
+/* Classes */
+.alpha-list ul {
+  list-style-type: lower-alpha;
+}
+
 /** Max content width */
 @media (min-width: 1280px) {
     .header, main > *, .footer {
