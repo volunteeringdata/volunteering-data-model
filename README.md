@@ -34,7 +34,7 @@ We welcome domain experts and people with varied experiences of volunteering to 
 
 Please don't hesitate to contribute to the [discussions](https://github.com/orgs/volunteeringdata/discussions/) on the volunteering data model repository.
 
-We created 7 main categories to focus on specific areas of development and expertise:
+We created 7 main categories for focused discussions on specific modeling and requirements topics:
 
 - [Accessibility](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility)
 - [Data Governance](https://github.com/orgs/volunteeringdata/discussions/categories/data-governance)
