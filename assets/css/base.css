@@ -27,8 +27,17 @@ main {
 }
 
 /* Classes */
-.alpha-list ul {
+.alpha-list {
   list-style-type: lower-alpha;
+}
+
+.alpha-list > ul > li {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.alpha-list > ul > li > h2 {
+  font-size: 1em;
 }
 
 /** Max content width */
