@@ -3,14 +3,12 @@ layout: default
 title: Crisis Response and Spontaneous Volunteering
 ---
 
-
-This is a taxonomy of crisis response and spontaneous volunteering concepts.
-
 We are always looking to improve this data model. Please don't hesitate to [contribute to the discussion](https://github.com/orgs/volunteeringdata/discussions/categories/emergency-response).
+
 
 ## Model
 
-### Initial version of the Crisis Response and Spontaneous Volunteering mapping
+### V1 of the Crisis Response and Spontaneous Volunteering Taxonomy
 
 ![Crisis Response and Spontaneous Volunteering taxonomy v1](./crisis.png "Crisis Response and Spontaneous Volunteering taxonomy v1")
 

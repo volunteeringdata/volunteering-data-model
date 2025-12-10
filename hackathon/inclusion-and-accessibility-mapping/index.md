@@ -1,11 +1,10 @@
 ---
 layout: default
-title: Accessibility and Inclusion Taxonomy Mapping
+title: Accessibility and Inclusion Taxonomy
 ---
 
-This is a taxonomy of inclusion and accessibility.
-
 We are always looking to improve this data model. Please don't hesitate to [contribute to the discussion](https://github.com/orgs/volunteeringdata/discussions/categories/accessibility).
+
 
 ## Model
 
@@ -13,7 +12,7 @@ The mapping of accessibility and inclusion considerations for volunteering
 activities and organisations is intended to provide a more comprehensive list of accessibility
 considerations for organisations when advertising volunteering opportunities.
 
-### Initial Version of the Accessibility and Inclusion Taxonomy Mapping
+### V1 of the Accessibility and Inclusion Taxonomy
 
 ![accessibility and inclusion taxonomy v1](./accessibility.png "accessibility and inclusion taxonomy v1")
 
