@@ -43,8 +43,8 @@ The first working group meeting introducing the project, and the role and purpos
 
 The second working group meeting provided an update on the development of the data model and workshopped data access requirements, to inform the design of an API (APIs are computer to computer messaging services) and started to consider the pros and cons of opportunity data being published as open data (Open data is data that anyone can access, use or share).
 
-* Meeting Notes (PDF): Coming soon!
-* Slides (PDF): [View the slides from the meeting](slides_20251125_volunteering_swg_2.pdf)  
+* Meeting Notes (PDF): [View the note of the meeting](notes_20251126_volunteering_swg_2.pdf)
+* Slides (PDF): [View the slides from the meeting](slides_20251126_volunteering_swg_2.pdf)  
 * Whiteboard (Miro): [View the whiteboard created at the working group meeting](https://miro.com/app/board/uXjVJldYfOU=/)
 
 ### Meeting 3 2025-12-10
